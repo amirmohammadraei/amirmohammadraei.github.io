@@ -1,5 +1,5 @@
 # Personal Website
 
-Clean academic portfolio for AI research and projects.
+My academic portfolio.
 
-**Live**: [amirmohammadraei.github.io](https://amirmohammadraei.github.io)
+[amirmohammadraei.github.io](https://amirmohammadraei.github.io)
