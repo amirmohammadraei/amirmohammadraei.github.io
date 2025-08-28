@@ -1,0 +1,114 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    /* Navigation */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 2rem 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        margin: 1rem 0;
+    }
+
+    /* Hero Section */
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-image {
+        order: -1;
+    }
+
+    .profile-photo {
+        width: 160px;
+        height: 200px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    /* General Sections */
+    section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    /* Skills */
+    .skills-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* Projects and Experience */
+    .research-projects .project,
+    .experience-item,
+    .education-item {
+        padding: 1.5rem;
+    }
+
+    /* Contact */
+    .contact-simple .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+
+    .contact-simple strong {
+        min-width: auto;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero {
+        padding: 100px 0 60px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .bio {
+        font-size: 1rem;
+    }
+
+    .research-projects .project,
+    .experience-item,
+    .education-item {
+        padding: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+}
