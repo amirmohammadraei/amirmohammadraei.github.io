@@ -20,12 +20,12 @@
 
 .skill-category h3 {
     font-family: 'Source Serif Pro', serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    color: #2c3e50;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #3498db;
+    color: #1a252f;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid #34495e;
 }
 
 .skill-tags {
@@ -35,13 +35,14 @@
 }
 
 .skill-tag {
-    background: #f8f9fa;
-    color: #495057;
-    padding: 6px 12px;
+    background: #ffffff;
+    color: #2c3e50;
+    padding: 8px 16px;
     border-radius: 4px;
     font-size: 0.9rem;
-    font-weight: 400;
-    border: 1px solid #dee2e6;
+    font-weight: 500;
+    border: 1px solid #34495e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Academic Highlights Section */
@@ -60,21 +61,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f8f9fa;
-    padding: 1rem 1.5rem;
+    background: #ffffff;
+    padding: 1.2rem 1.8rem;
     border-radius: 6px;
-    border-left: 3px solid #3498db;
+    border-left: 3px solid #34495e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .course-name {
     font-weight: 500;
-    color: #2c3e50;
+    color: #1a252f;
 }
 
 .course-grade {
     font-weight: 600;
-    color: #27ae60;
-    font-size: 0.9rem;
+    color: #34495e;
+    font-size: 0.95rem;
 }
 
 /* Animations */

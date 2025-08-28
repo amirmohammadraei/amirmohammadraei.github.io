@@ -17,36 +17,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .nav-brand {
     font-family: 'Source Serif Pro', serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #2c3e50;
+    color: #1a252f;
+    white-space: nowrap;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .nav-menu a {
-    color: #555;
+    color: #2c3e50;
     font-weight: 500;
-    font-size: 0.95rem;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    background: #f0f8ff;
-    color: #3498db;
+    background: #f8f9fa;
+    color: #1a252f;
 }
 
 /* Mobile Navigation */
@@ -60,7 +62,7 @@
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: #2c3e50;
+    background: #1a252f;
     border-radius: 2px;
     transition: all 0.3s ease;
 }

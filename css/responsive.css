@@ -4,6 +4,10 @@
 
 @media (max-width: 768px) {
     /* Navigation */
+    .nav-brand {
+        font-size: 1.3rem;
+    }
+    
     .hamburger {
         display: flex;
     }
@@ -85,6 +89,10 @@
 }
 
 @media (max-width: 480px) {
+    .nav-brand {
+        font-size: 1.1rem;
+    }
+    
     .container {
         padding: 0 15px;
     }

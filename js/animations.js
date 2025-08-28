@@ -17,27 +17,13 @@ class AnimationController {
      * Setup intersection observer for scroll animations
      */
     setupScrollAnimations() {
-        // Create intersection observer
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                }
-            });
-        }, {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        });
-
-        // Observe elements for animation
+        // Temporarily disabled animations to ensure content visibility
         const animateElements = document.querySelectorAll('.project, .experience-item, .education-item, .course-item');
         animateElements.forEach(el => {
-            // Initially hide elements
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            
-            // Observe for intersection
-            observer.observe(el);
+            // Ensure all content is visible
+            el.style.opacity = '1';
+            el.style.transform = 'none';
+            el.classList.add('animate-in');
         });
     }
 
