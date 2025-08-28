@@ -19,6 +19,3 @@ Python, JavaScript, Android SDK, OpenCV, TensorFlow, Django, React.js, Signal Pr
 ## Website
 
 Visit: [https://amirmohammadraei.github.io](https://amirmohammadraei.github.io)
-
----
-*Built with modern web technologies*
