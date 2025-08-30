@@ -25,7 +25,7 @@
     color: #1a252f;
     margin-bottom: 1.2rem;
     padding-bottom: 0.8rem;
-    border-bottom: 2px solid #0d47a1;
+    border-bottom: 2px solid #455a64;
 }
 
 .skill-tags {
@@ -71,7 +71,7 @@
     background: #ffffff;
     padding: 1.2rem 1.8rem;
     border-radius: 6px;
-    border-left: 3px solid #0d47a1;
+    border-left: 3px solid #455a64;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 

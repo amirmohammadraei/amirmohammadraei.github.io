@@ -130,7 +130,7 @@ section {
     background: #ffffff;
     padding: 2.5rem;
     border-radius: 6px;
-    border-left: 4px solid #0d47a1;
+    border-left: 4px solid #455a64;
     margin-bottom: 2rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
@@ -178,7 +178,7 @@ section {
     margin-bottom: 2.5rem;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    border-left: 4px solid #0d47a1;
+    border-left: 4px solid #455a64;
 }
 
 .project h3 {
@@ -216,7 +216,7 @@ section {
     padding: 2.5rem;
     margin-bottom: 2rem;
     border-radius: 6px;
-    border-left: 4px solid #0d47a1;
+    border-left: 4px solid #455a64;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
